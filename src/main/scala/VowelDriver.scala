@@ -8,11 +8,16 @@ object VowelDriver extends App{
     array(0)
   }
 
-  println("Enter String")
-  val string1=scala.io.StdIn.readLine()
+  // println("Enter String")
+//   val string1=scala.io.StdIn.readLine()
+//   val result=vowelCount(string1)
+//   println(s"Total Number of vowels are $result")
+  
+  
+  val string1="Hello"
   val result=vowelCount(string1)
   println(s"Total Number of vowels are $result")
-
+    
 }
 
 
